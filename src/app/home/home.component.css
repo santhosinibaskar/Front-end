@@ -1,0 +1,56 @@
+.demos{
+  background-image: url("loginbg.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.deco{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 60px;
+  font-style: bold;
+ 
+}
+.deco1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+ 
+}
+.deco2{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+ 
+}
+div.gallery{
+    padding-right: 30px;
+    margin: 5px;
+    border: 0px solid #ccc;
+    float: right;
+    width: 250px;
+    height: 200px;
+  }
+
+  
+  
+  div.gallery:hover {
+    border: 5px solid transparent ;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .bg_img{
+  
+    background-image: url(https://wallpapercave.com/wp/wp4430570.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+   
+    
+}
+  

@@ -1,0 +1,35 @@
+
+<div class="bg_img">
+
+<h1 style="color:rgba(42, 188, 233, 0.745);padding-left: 900px;padding-top:50px">Book Details</h1>
+
+  
+<div class="container col-md-6">
+  <form (ngSubmit)="userBook()">
+    <br>
+    <div class="col-7" style="margin-left:500px ;">
+      <label for="exampleFormControlInput3" class="form-label" style="color:black">BookId</label>
+      <input type="text" class="form-control" id="bookId" name="bookId" placeholder="Enter BookId"
+        [(ngModel)]="book.bookId">
+
+      <label for="exampleFormControlInput3" class="form-label"  style="color:black">BookName</label>
+      <input type="text" class="form-control" id="bookName" name="bookName" placeholder="Enter BookName"
+        [(ngModel)]="book.bookName">
+
+      <label for="exampleFormControlInput3" class="form-label"  style="color:black">Author</label>
+      <input type="text" class="form-control" id="author" name="author" placeholder="Enter Author"
+        [(ngModel)]="book.author">
+
+
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+   
+  </form>
+</div>

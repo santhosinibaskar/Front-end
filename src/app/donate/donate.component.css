@@ -1,0 +1,17 @@
+.container{
+    margin-left: 100px;
+
+}
+.demo{
+
+    margin-left:800px;
+    margin-top: -550px;
+
+}
+.donation{
+    background-image: url(https://media.istockphoto.com/id/1271755758/photo/the-word-donate-on-wooden-blocks-with-heart-icon-against-blue-background-charity-and-donation.jpg?b=1&s=170667a&w=0&k=20&c=am3T8bxvpvuWWaOeh362tZce-MGstZoCgvRzrHt235k=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+
+}

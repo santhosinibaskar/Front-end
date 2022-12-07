@@ -1,0 +1,43 @@
+
+<div class="bg_img">
+  
+  <div class="container">
+    <br>
+    <h1 style="color:rgba(42, 188, 233, 0.745); margin-top: 10px;margin-left:40px">User Login</h1>
+    <br>
+    <form (ngSubmit)="userLogin()">
+      
+        <div class="col-4">
+          <label for="exampleFormControlInput2" class="form-label"
+            style="color:rgba(139, 139, 219, 0.745)">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email"
+            [(ngModel)]="user.email">
+        </div>
+        <br>
+        <div class="col-4">
+          <label for="exampleFormControlInput2" class="form-label"
+            style="color:rgba(139, 139, 219, 0.745)">Password</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password"
+            [(ngModel)]="user.password">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <button routerLink="/category" class="btn btn-primary" style="position:absolute;margin-left:30px;">Categories</button>
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
+<router-outlet></router-outlet>

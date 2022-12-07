@@ -1,0 +1,17 @@
+
+
+
+.bg_img{
+  
+
+  
+    background-image: url(https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.jpg?b=1&s=170667a&w=0&k=20&c=e8mSv3z6PhT18EUmzgtdMCbQecYzhHoqu_ts8tFdN6c=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+   
+    
+}.col-6{
+    font-size: 20px;
+    margin-left:-200px;
+}
